@@ -1,0 +1,77 @@
+                       body {
+                           font-size: 16px;
+                           color: black;
+                           background-color: whitesmoke font-family: Arial, Helvetica, sans-serif;
+                       }
+                       
+                       h1 {
+                           text-align: center;
+                           margin-top: 20px;
+                           margin-bottom: 20px;
+                       }
+                       
+                       h2 {
+                           text-align: center;
+                       }
+                       
+                       .navbar {
+                           background-color: grey;
+                           padding: 10px;
+                       }
+                       
+                       .navbarbrand a:hover,
+                       .navbarbrand a:focus {
+                           text-decoration: none;
+                       }
+                       
+                       .navbar-brand h1 {
+                           color: black;
+                           margin: auto;
+                       }
+                       
+                       .nav-link {
+                           color: black;
+                       }
+                       
+                       .nav-item {
+                           border: 5px;
+                           padding: 5px;
+                           width: 100%;
+                       }
+                       
+                       .nav-item:hover {
+                           background: burlywood;
+                       }
+                       
+                       .navbar-toggler {
+                           color: burlywood;
+                           padding: 5px;
+                       }
+                       
+                       .container-fluid1 {
+                           background-color: grey;
+                           padding: 20px;
+                           width: 96%;
+                           margin: auto;
+                       }
+                       
+                       @media (max-width: 575px) {
+                           .nav-item {
+                               border: 5px;
+                               padding: 5px;
+                               width: 100%;
+                               background: white;
+                               margin-top: 2px;
+                               text-align: center;
+                           }
+                           .container-fluid1 {
+                               background-color: grey;
+                               padding: 5px;
+                               width: 80%;
+                               border: 5px;
+                               margin: auto;
+                           }
+                           /* p {
+                               margin: auto;
+                           } */
+                       }
